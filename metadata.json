@@ -1,0 +1,21 @@
+{
+  "name": "wemakecustom-composer",
+  "version": "0.1.0",
+  "author": "wemakecustom",
+  "summary": "Puppet module to install PHP Composer on Ubuntu using ppa:duggan/composer",
+  "license": "MIT",
+  "source": "https://github.com/wemakecustom/puppet-composer.git",
+  "project_page": "https://github.com/wemakecustom/puppet-composer",
+  "issues_url": "https://github.com/wemakecustom/puppet-composer/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+    {
+      "name": "puppetlabs-apt",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
